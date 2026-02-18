@@ -16,7 +16,7 @@ with open("Friends_Transcript.txt","r") as f:
     corpus=f.read()
 
 corpus
-
+#making corpus that is it is all the words and sentences included
 
 from nltk import word_tokenize
 raw_sent=word_tokenize(corpus)
